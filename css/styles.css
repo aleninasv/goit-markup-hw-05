@@ -394,6 +394,44 @@ justify-content: center;
 .social-link-footer:focus {
   background-color: var(--accent-color);
 }
+/*--END OF FOOTER STYLE--*/
+/*--MODAL AND BACKDROP STYLE--*/
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 1024px;
+}
+.modal {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+width: 528px;
+height: 580px;
+background-color: #ffffff;
+}
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 0;
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+} 
+/*--END OF MODAL AND BACKDROP STYLE--*/
 /*--PORTFOLIO PAGE STYLE--*/
 .portfolio-header {
 border-bottom: 1px solid #ECECEC;
